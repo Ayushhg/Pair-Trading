@@ -15,10 +15,6 @@ This interactive dashboard analyzes the cointegration and statistical arbitrage 
 - 📤 Data export to CSV
 - 🔧 Configurable parameters (tickers, period, interval, thresholds)
 
-## 📷 Screenshots
-
-> Include screenshots or gifs of the dashboard UI, charts, and analysis output here.
-
 ## 🛠️ Tech Stack
 
 - Python
@@ -35,3 +31,11 @@ This interactive dashboard analyzes the cointegration and statistical arbitrage 
 ```bash
 git clone https://github.com/yourusername/pair-trading-dashboard.git
 cd pair-trading-dashboard
+
+
+pip install streamlit yfinance pandas numpy statsmodels
+```
+
+### 2. Run The App
+streamlit run app.py
+
